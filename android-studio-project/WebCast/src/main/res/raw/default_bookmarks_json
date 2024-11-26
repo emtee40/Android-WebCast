@@ -18,15 +18,27 @@
     "referer":  null
   },
   {
-    "title":    "ABC News",
+    "title":    "US: ABC News",
     "uri":      "https://abcnews.go.com/Live",
     "mimeType": null,
     "referer":  null
   },
   {
-    "title":    "CBS News",
-    "uri":      "https://www.cbsnews.com/common/video/cbsn_header_prod.m3u8",
+    "title":    "US: CBS News",
+    "uri":      "https://www.cbsnews.com/live/",
+    "mimeType": null,
+    "referer":  null
+  },
+  {
+    "title":    "US: NBC News",
+    "uri":      "https://www.nbcnews.com/now",
+    "mimeType": null,
+    "referer":  null
+  },
+  {
+    "title":    "China Global Television Network: CGTN World News in English",
+    "uri":      "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8",
     "mimeType": "application/x-mpegURL",
-    "referer":  "https://www.cbsnews.com/live/"
+    "referer":  "https://www.cgtn.com/tv"
   }
 ]
