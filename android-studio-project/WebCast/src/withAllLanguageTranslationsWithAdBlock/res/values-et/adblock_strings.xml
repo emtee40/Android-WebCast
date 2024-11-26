@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Seadistused</string>
   <string name="pref_adblock_enable_title">Reklaamiploki lubamine</string>
   <string name="pref_adblock_enable_summary_on" >Blokeerivad hosts, mis teenivad: reklaamid, jälitajad, pahavara, rämpspost</string>
   <string name="pref_adblock_enable_summary_off">Kõigi masinate taotluste lubamine</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Kohandatud Blocklist URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">Kohandatud blokeerimisnimekirja URL. Nimekirjas peab olema üks masinanimi rea kohta. Tühjad read ja read, mis algavad \'#\' on ignoreeritud.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Kohandatud Blocklist Uuendamise intervall</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">Värskendamise aeg..</string>
 </resources>

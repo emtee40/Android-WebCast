@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Configuración</string>
   <string name="pref_adblock_enable_title">Habilitar bloque de anuncios</string>
   <string name="pref_adblock_enable_summary_on" >Bloquear hosts que sirven: anuncios, rastreadores, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Permitir solicitudes a todos los hosts</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL de lista de bloqueo personalizado</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL para la lista de bloques personalizada. La lista de bloques debe contener un nombre de host por línea. Líneas y líneas vacías que empiezan por \'#\' se ignoran.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Intervalo de actualización de lista de bloqueo personalizado</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">días entre renovación..</string>
 </resources>

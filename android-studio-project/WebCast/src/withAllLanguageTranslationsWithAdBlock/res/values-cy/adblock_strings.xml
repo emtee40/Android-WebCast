@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Gosodiadau</string>
   <string name="pref_adblock_enable_title">Galluogi bloc</string>
   <string name="pref_adblock_enable_summary_on" >Rhwystro gwesteiwyr sy\'n gwasanaethu: tadau, tracwyr, malwyr, sbam</string>
   <string name="pref_adblock_enable_summary_off">Caniatáu ceisiadau i bob gwesteiwr</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL y Rhestr</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL ar gyfer rhestr blocâd cyfaddas. Rhaid i restr y blocâd gynnwys un enw gwesteiwr y llinell. Llinellau gwag a llinellau sy\'n dechrau gyda \'#\' wedi eu hanwybyddu.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Ysbaid Diweddaru Rhestr</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">diwrnodau rhwng adnewyddu..</string>
 </resources>

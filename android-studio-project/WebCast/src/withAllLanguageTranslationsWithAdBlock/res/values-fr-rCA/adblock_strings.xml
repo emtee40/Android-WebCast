@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Paramètres</string>
   <string name="pref_adblock_enable_title">Activer le bloc d\'annonces</string>
   <string name="pref_adblock_enable_summary_on" >Blocage des hôtes qui servent: ads, trackers, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Autoriser les demandes à tous les hôtes</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL de liste de blocs personnalisée</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL de la liste de blocages personnalisés. La liste de blocs doit contenir un nom d\'hôte par ligne. Lignes et lignes vides commençant par \'#\' sont ignorés.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Intervalle de mise à jour des blocs de</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">jours entre régénération..</string>
 </resources>

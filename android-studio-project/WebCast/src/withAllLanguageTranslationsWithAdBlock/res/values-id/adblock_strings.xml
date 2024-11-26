@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Pengaturan</string>
   <string name="pref_adblock_enable_title">Aktifkan blok iklan</string>
   <string name="pref_adblock_enable_summary_on" >Memblokir host yang melayani: ads, trackers, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Memungkinkan permintaan untuk semua host</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL Kustom</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL untuk blocklist kustom. Daftar penyumbatan harus berisi satu nama host per baris. Baris kosong dan baris yang dimulai dengan \'#\' $diabaikan.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Interval Pemutakhiran Blocklist Custom</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">hari antara penyegaran..</string>
 </resources>

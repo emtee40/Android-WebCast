@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Thiết lập</string>
   <string name="pref_adblock_enable_title">Kích hoạt khối quảng cáo</string>
   <string name="pref_adblock_enable_summary_on" >Chặn chủ nhà phục vụ: quảng cáo, trackers, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Cho phép yêu cầu tất cả máy chủ</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL danh sách phong tục tùy chỉnh</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL cho danh sách bom tùy chỉnh. Danh sách blocklist phải chứa một hostname cho mỗi dòng. Đường dây và đường rỗng bắt đầu với \'#\' bị bỏ qua.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Khoảng cập nhật danh sách phong tục tùy chỉnh</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">ngày làm mới..</string>
 </resources>

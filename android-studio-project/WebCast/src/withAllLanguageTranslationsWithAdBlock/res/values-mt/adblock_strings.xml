@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Settings</string>
   <string name="pref_adblock_enable_title">Jippermettu blokk ad</string>
   <string name="pref_adblock_enable_summary_on" >Imblukkar ospiti li jservu: ads, trackers, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Permess ta \' talbiet għall-ospiti kollha</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Customer Blocklist URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL għal blocklist tad-dwana. Il-blocklist għandu jkun fiha wieħed hostname kull linja. Linji vojta u linji li jibdew b \' \'#\' huma injorati.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Customer Blocklist Aġġornament Intervall</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">jiem bejn jġedded..</string>
 </resources>

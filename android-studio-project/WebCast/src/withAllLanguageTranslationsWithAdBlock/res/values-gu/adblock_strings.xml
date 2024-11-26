@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock સુયોજનો</string>
   <string name="pref_adblock_enable_title">એડ બ્લોક સક્રિય કરો</string>
   <string name="pref_adblock_enable_summary_on" >બ્લોકીંગ યજમાન કે જે સેવા આપે છે: એડ્સ, ટ્રેકર, મેલવેર, સ્પામ</string>
   <string name="pref_adblock_enable_summary_off">બધા યજમાનોને મંજૂરી આપે છે</string>
+  <string name="pref_adblock_custom_blocklist_url_title">વૈવિધ્યપૂર્ણ બ્લોક યાદી URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">વૈવિધ્યપૂર્ણ બ્લોક યાદી માટે URL. Blocklist એ પ્રતિ લીટી પર એક યજમાનનામ હોવુ જ જોઇએ. ખાલી લીટીઓ અને લીટીઓ કે જે સાથે શરૂ થાય છે \'#\' અવગણાય છે.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">વૈવિધ્યપૂર્ણ બ્લોક યાદી સુધારો અંતરાલ</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">પુનઃતાજું વચ્ચેનો દિવસો..</string>
 </resources>

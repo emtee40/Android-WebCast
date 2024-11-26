@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock అమరిక</string>
   <string name="pref_adblock_enable_title">అడ్ బ్లాక్ ను చేతనము చేయుము</string>
   <string name="pref_adblock_enable_summary_on" >సేవించు బల్కింగ్ సైన్యం: అడ్డులు, ట్రాకర్లు, మల్వేర్, స్పామ్</string>
   <string name="pref_adblock_enable_summary_off">అన్ని సైన్సులకు అభ్యర్ధనలను అనుమతిస్తుంది</string>
+  <string name="pref_adblock_custom_blocklist_url_title">\@ title: window Blocklist URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">ఆచారం బ్లాక్జాబితాకు URL. బ్లాక్జాబితాలో వరుసగా ఒక హోస్ట్ పేరు కలిగివుంటుంది. ఖాళీ గీతలను మరియు వరుసలను ప్రారంభించు \'#\' విస్మయం.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">\@ title: window</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">తిరస్కారాల మధ్య రోజులు..</string>
 </resources>

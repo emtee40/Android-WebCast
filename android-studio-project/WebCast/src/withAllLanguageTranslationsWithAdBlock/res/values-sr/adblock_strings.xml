@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Поставке</string>
   <string name="pref_adblock_enable_title">Омогући блок ад</string>
   <string name="pref_adblock_enable_summary_on" >Блокирање домаћина који служе: рекламе, уређаји за праћење, малвер, spam</string>
   <string name="pref_adblock_enable_summary_off">Омогућавање захтева свим домаћинима</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL адреса прилагођене блоклисте</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL адреса за прилагођену блоклисту. Блоклиста мора да садржи име домаћина по реду. Празне линије и линије које почињу са \'#\' су игнорисане.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Интервал ажурирања прилагођеног блоклиста</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">дана између освежавања..</string>
 </resources>

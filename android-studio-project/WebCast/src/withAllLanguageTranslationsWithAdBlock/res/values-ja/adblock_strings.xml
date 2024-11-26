@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock 設定</string>
   <string name="pref_adblock_enable_title">広告ブロックの使用</string>
   <string name="pref_adblock_enable_summary_on" >サーブするホストのブロック : 広告、トラッカー、マルウェア、スパム</string>
   <string name="pref_adblock_enable_summary_off">すべてのホストへの要求の許可</string>
+  <string name="pref_adblock_custom_blocklist_url_title">カスタム・ブロック・リスト URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">カスタム・ブロック・リストの URL 。 ブロック・リストには、 1 行につきホスト名が 1 つ 以下で始まる空の行と行 \'#\' 無視される.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">カスタム・ブロック・リストの更新間隔</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">リフレッシュ間の日数..</string>
 </resources>

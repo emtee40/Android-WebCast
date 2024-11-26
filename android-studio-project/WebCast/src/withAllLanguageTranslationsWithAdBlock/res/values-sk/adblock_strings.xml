@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Nastavenia</string>
   <string name="pref_adblock_enable_title">Povoliť blok reklamy</string>
   <string name="pref_adblock_enable_summary_on" >Blokovanie hostiteľov, ktorí slúžia: reklamy, trackery, malware, nevyžiadaná pošta</string>
   <string name="pref_adblock_enable_summary_off">Povolenie požiadaviek pre všetkých hostiteľov</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Vlastná adresa URL blokovania</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">Adresa URL pre vlastný zoznam blokovaní. Zoznam blokovania musí obsahovať jeden názov hostiteľa na riadok. Prázdne riadky a riadky, ktoré začínajú s \'#\' sa ignorujú.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Interval aktualizácie vlastného zoznamu blokovaní</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">dni medzi obnovou..</string>
 </resources>

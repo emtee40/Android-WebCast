@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock विन्यास</string>
   <string name="pref_adblock_enable_title">विज्ञापन ब्लॉक सक्षम करें</string>
   <string name="pref_adblock_enable_summary_on" >होस्ट करता है कि सेवा बंद करें: विज्ञापन, ट्रेकर्स, मैलवेयर, स्पैम</string>
   <string name="pref_adblock_enable_summary_off">सभी होस्ट को अनुरोध की अनुमति देता है</string>
+  <string name="pref_adblock_custom_blocklist_url_title">मनपसंद ब्लॉकलिस्ट URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">पसंदीदा ब्लॉकसूची के लिए यूआरएल. ब्लॉकसूची में एक होस्टनाम प्रति पंक्ति समाहित होना चाहिए । खाली लकीरें और लकीरें जो शुरू होती हैं \'#\' नज़रअंदाज़ कर.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">मनपसंद ब्लॉकलिस्ट अद्यतन अंतराल</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">ताज़ा करें..</string>
 </resources>

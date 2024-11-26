@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Inställningar</string>
   <string name="pref_adblock_enable_title">Aktivera ad blockering</string>
   <string name="pref_adblock_enable_summary_on" >Blockerande värdar som betjänar: annonser, spårare, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Tillåta begäran till alla värdar</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Anpassad Blocklist-URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL för anpassad blocklista. Blocklistan måste innehålla ett värdnamn per rad. Tomma rader och rader som börjar med \'#\' ignoreras.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Uppdateringsintervall för anpassad Blocklist</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">dagar mellan uppdatering..</string>
 </resources>

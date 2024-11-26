@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock அமைப்புகள்</string>
   <string name="pref_adblock_enable_title">அட்டை தொகுதி செயல்படுத்து</string>
   <string name="pref_adblock_enable_summary_on" >வலைப்பதிவொன்றின் சேவைகள்: ஆடைகள், டிராக்கர், மல்வார், ஸ்பம்</string>
   <string name="pref_adblock_enable_summary_off">அனைத்து புள்ளிகளையும் அனுமதிக்கிறது</string>
+  <string name="pref_adblock_custom_blocklist_url_title">தனிப்பயன் Blocklist URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">தனிப்பயன் இணைப்புகளுக்கான URL. உள்நாட்டு பட்டியலுக்கு ஒரு புள்ளி பெயரை உள்ளிருக்க வேண்டும். காலியான கோடுகள் மற்றும் கோடுகள் \'#\' புறக்கணித்தல்.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">தனிப்பயன் பிளாக் பட்டியல் புதுப்பி இடைவெளி</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">மறுபடியும் இடைப்பட்ட நாட்கள்..</string>
 </resources>

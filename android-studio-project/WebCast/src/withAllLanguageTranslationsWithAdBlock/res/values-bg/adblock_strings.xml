@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Настройки:</string>
   <string name="pref_adblock_enable_title">Разрешаване на рекламен блок</string>
   <string name="pref_adblock_enable_summary_on" >Блокиране на хостове, които служат: реклами, тракери, зловреден софтуер, спам</string>
   <string name="pref_adblock_enable_summary_off">Разрешаване на заявки за всички хостове</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL на потребителски blocklist</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL за потребителски блоклист. Блоксписъкът трябва да съдържа едно име на хост на ред. Празни редове и линии, които започват с \'#\' са игнорирани.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Интервал за обновяване на BLOCKLIST</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">дни между опресняване..</string>
 </resources>

@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Instellingen</string>
   <string name="pref_adblock_enable_title">Ad-blok inschakelen</string>
   <string name="pref_adblock_enable_summary_on" >Blokkeren van hosts die dienen: advertenties, trackers, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Aanvragen voor alle hosts toestaan</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL van aangepaste bloklijst</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL voor aangepaste bloklijst. De bloklijst moet één hostnaam per regel bevatten. Lege regels en regels die beginnen met \'#\' worden genegeerd.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Update-interval voor aangepaste blokkeringslijst</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">dagen tussen vernieuwen..</string>
 </resources>

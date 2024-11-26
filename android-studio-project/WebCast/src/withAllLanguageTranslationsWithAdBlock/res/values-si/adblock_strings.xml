@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock සැකසුම්</string>
   <string name="pref_adblock_enable_title">දැන්වීම් අවහිර සක්රීය කරන්න</string>
   <string name="pref_adblock_enable_summary_on" >සේවය කරන ධාරාවන්, දැන්වීම්, ට්රැක්, මැල්වෙයා, ස්පෑම්</string>
   <string name="pref_adblock_enable_summary_off">සියලු ධාරාවන් වෙත ඉල්ලීම්</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Blocklist URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">රුචි අවහිර ලැයිස්තුව සඳහා URL. බාහිර ලැයිස්තුවට එක් ධාරාවක් අඩංගු විය යුතුය. වලින් ආරම්භ වන හිස් පේළි සහ රේඛා \'#\' නොසලකා හැරිම.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">\@ title: window</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">දින දසුන අතර දින..</string>
 </resources>

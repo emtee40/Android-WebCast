@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Indstillinger</string>
   <string name="pref_adblock_enable_title">Aktivér reklameblok</string>
   <string name="pref_adblock_enable_summary_on" >Blokering af værter, der betjener: annoncer, sporingsenheder, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Tillad anmodninger til alle værter</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Tilpasset blokliste-URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL til tilpasset blokliste. Blocklisten skal indeholde ét værtsnavn pr. linje. Tomme linjer og linjer, der begynder med \'#\' ignoreres.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Tilpasset opdateringsinterval for blokering</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">dage mellem opfriskning..</string>
 </resources>

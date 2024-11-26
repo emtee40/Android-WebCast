@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock NastaveníComment</string>
   <string name="pref_adblock_enable_title">Povolit reklamní blok</string>
   <string name="pref_adblock_enable_summary_on" >Blocking hosts that serve: ads, trackers, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Povolení požadavků na všechny hostitele</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Adresa URL vlastního seznamu blokování</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">Adresa URL pro vlastní seznam blocklist. Seznam blocklist musí obsahovat jeden název hostitele na řádek. Prázdné řádky a řádky, které začínají na \'#\' jsou ignorovány.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Interval aktualizace vlastních objektů Blocklist</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">dní mezi aktualizací..</string>
 </resources>

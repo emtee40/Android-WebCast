@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Tetapan</string>
   <string name="pref_adblock_enable_title">Benarkan blok iklan</string>
   <string name="pref_adblock_enable_summary_on" >Menghalang hos yang berkhidmat: iklan, trackers, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Membenarkan permintaan kepada semua hos</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL Senarai Blok Suai</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL untuk senarai blok suai. Senarai sekat mesti mengandungi satu nama hos per baris. Baris kosong dan baris kosong yang bermula dengan \'#\' Diabaikan.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Sela Kemaskini Senarai Sekat Suai</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">hari diantara refresh..</string>
 </resources>

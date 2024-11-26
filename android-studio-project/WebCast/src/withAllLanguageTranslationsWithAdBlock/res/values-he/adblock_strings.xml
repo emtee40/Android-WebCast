@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock הגדרות</string>
   <string name="pref_adblock_enable_title">הפעלת חטיבת פרסום</string>
   <string name="pref_adblock_enable_summary_on" >חסימת מארח שמשרת: מודעות, עוקבים, תוכנות זדוניות, דואר זבל</string>
   <string name="pref_adblock_enable_summary_off">לאפשר בקשות לכל המארחים</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL של בלוקצ \' י מותאם</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">כתובת URL עבור חסימות מותאמות. על החסימה להכיל שם מארח אחד לכל שורה. שורות וקווים ריקים שמתחילים ב - \'#\' לא נלקח בחשבון.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">מרווח עדכון מותאם של Blocklist</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">ימים בין רענון..</string>
 </resources>

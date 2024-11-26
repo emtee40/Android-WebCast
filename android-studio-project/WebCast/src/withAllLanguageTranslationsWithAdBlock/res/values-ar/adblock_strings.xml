@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock المحددات</string>
   <string name="pref_adblock_enable_title">اتاحة مجموعة ad</string>
   <string name="pref_adblock_enable_summary_on" >اقفال الأنظمة الرئيسية التي تخدم : اعلانات ، ووحدات تتبع ، وبرامج خبيثة ، وغيرها</string>
   <string name="pref_adblock_enable_summary_off">السماح بالطلبات لكل الأنظمة الرئيسية</string>
+  <string name="pref_adblock_custom_blocklist_url_title">عنوان URL لكشف الاغلاق المهيأ</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">عنوان URL لكشف الحصارات المهيأ. يجب أن يحتوي كشف الحصارات على اسم نظام رئيسي واحد لكل سطر. خطوط وخطوط خالية تبدأ ب ـ \'#\' تم تجاهلها.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">الفترة الزمنية لتعديل كشف Blocklist المهيأ</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">أيام بين التجديد..</string>
 </resources>

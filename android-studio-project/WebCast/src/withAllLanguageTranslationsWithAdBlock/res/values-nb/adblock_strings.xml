@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Innstillinger</string>
   <string name="pref_adblock_enable_title">Aktiver reklameblokk</string>
   <string name="pref_adblock_enable_summary_on" >Blokking av verter som tjener: annonser, sporere, malware, søppelpost</string>
   <string name="pref_adblock_enable_summary_off">Alløsende forespørsler til alle verter</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL for tilpasset Blocklist</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL for tilpasset blockliste. Blocklisten må inneholde ett vertsnavn per linje. Tomme linjer og linjer som begynner med \'#\' blir oversett.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Oppdateringsintervall for tilpasset Blocklist</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">dager mellom fornying..</string>
 </resources>

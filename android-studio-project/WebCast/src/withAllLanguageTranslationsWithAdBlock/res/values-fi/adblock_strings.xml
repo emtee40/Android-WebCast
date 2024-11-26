@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Asetukset</string>
   <string name="pref_adblock_enable_title">Ota mainoskatkos</string>
   <string name="pref_adblock_enable_summary_on" >Isäntälaitteet, jotka palvelevat: mainoksia, jäljittimiä, haittaohjelmia, roskapostia</string>
   <string name="pref_adblock_enable_summary_off">Kaikkien koneiden pyyntöjen salliminen</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Mukautettu Blocklist-URL-osoite</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">Mukautetun luettelon URL-osoite. Solmuluettelossa on oltava yksi pääkone riviä kohden. Tyhjiä rivejä ja rivejä, jotka alkavat \'#\' On ohitettu.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Mukautettu Blocklist-päivitys</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">Päivisin verestys..</string>
 </resources>

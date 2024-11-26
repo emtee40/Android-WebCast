@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock 設定</string>
   <string name="pref_adblock_enable_title">啟用廣告區塊</string>
   <string name="pref_adblock_enable_summary_on" >封鎖的主機服務：廣告、追踪者、惡意軟體、垃圾郵件</string>
   <string name="pref_adblock_enable_summary_off">容許要求給所有主機</string>
+  <string name="pref_adblock_custom_blocklist_url_title">自訂區塊清單 URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">自訂區塊清單的 URL 。 區塊清單必須包含每行一個主機名稱。 空白行和開頭為的行 \'#\' 已忽略.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">自訂區塊清單更新間隔</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">重新整理之間的天數..</string>
 </resources>

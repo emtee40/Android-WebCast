@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock การตั้งค่า</string>
   <string name="pref_adblock_enable_title">เปิดใช้งานบล็อก ad</string>
   <string name="pref_adblock_enable_summary_on" >ปิดกั้นโฮสต์ที่ให้บริการ: โฆษณา, trackers, มัลแวร์, สแปม</string>
   <string name="pref_adblock_enable_summary_off">การอนุญาตให้คำร้องขอไปยังโฮสต์ทั้งหมด</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL รายการบล็อกที่กำหนดเอง</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL สำหรับรายการบล็อกที่กำหนดเอง รายการบล็อกต้องมีหนึ่งชื่อโฮสต์ต่อบรรทัด บรรทัดว่างและบรรทัดที่ขึ้นต้นด้วย \'#\' จะถูกข้าม.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">ช่วงอัพเดตรายการบล็อกที่กำหนดเอง</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">วันระหว่างการรีเฟรช..</string>
 </resources>

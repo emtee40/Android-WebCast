@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Beállítások</string>
   <string name="pref_adblock_enable_title">Reklámblokk engedélyezése</string>
   <string name="pref_adblock_enable_summary_on" >Szolgáltatók: hirdetések, nyomkövetők, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Kérések engedélyezése az összes hoszthoz</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Egyéni Blocklist URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">Egyéni bloklista URL címe. A bloklistájának egy sort kell tartalmaznia soronként. Üres sorok és sorok, amelyek \'#\' Figyelmen kívül marad.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Egyéni Blocklist frissítési időköz</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">Napok frissítése között..</string>
 </resources>

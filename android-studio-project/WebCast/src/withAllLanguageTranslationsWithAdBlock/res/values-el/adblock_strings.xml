@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Ρυθμίσεις:</string>
   <string name="pref_adblock_enable_title">Ενεργοποίηση ενότητας ad</string>
   <string name="pref_adblock_enable_summary_on" >Οικοδεσπότες που σερβίρουν: διαφημίσεις, ανιχνευτές, κακόβουλο λογισμικό, spam</string>
   <string name="pref_adblock_enable_summary_off">Επιτρέποντας αιτήσεις σε όλους τους υπολογιστές.</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Προσαρμοσμένη URL Blocklist</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL για προσαρμοσμένη λίστα αποκλεισμένα. Η λίστα αποκλεισμού πρέπει να περιέχει ένα όνομα υπολογιστή ανά γραμμή. Κενές γραμμές και γραμμές που αρχίζουν με \'#\' αγνοούνται..</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Προσαρμοσμένη ενημέρωση λίστας Blocklist</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">ημέρες μεταξύ ανανέωσης..</string>
 </resources>

@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Setări</string>
   <string name="pref_adblock_enable_title">Activează blocul de anunțuri</string>
   <string name="pref_adblock_enable_summary_on" >Blocarea gazdelor care servesc: reclame, trackere, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Permiterea solicitărilor tuturor gazdelor</string>
+  <string name="pref_adblock_custom_blocklist_url_title">URL-ul Blocklist personalizat</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL pentru blocklist personalizat. Lista de blocaje trebuie să conțină un nume de gazdă pe linie. Linii goale și linii care încep cu \'#\' sunt ignorate.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Interval de actualizare Custom Blocklist</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">zile între refresh..</string>
 </resources>

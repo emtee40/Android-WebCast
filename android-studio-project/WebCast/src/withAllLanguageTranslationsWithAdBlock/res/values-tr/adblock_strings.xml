@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Ayarlar</string>
   <string name="pref_adblock_enable_title">Reklam bloğunu etkinleştir</string>
   <string name="pref_adblock_enable_summary_on" >Hizmet veren anasistemleri engelle: reklamlar, trackler, kötü niyetli yazılımlar, istenmeyen e-posta</string>
   <string name="pref_adblock_enable_summary_off">Tüm anasistemlere yönelik isteklere izin verilmesi</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Özel Blok Listesi URL \'si</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">Özel blocklist URL \'si. Blok listesi her satıra bir anasistem adı içermelidir. Boş satırlar ve satırlar ile başlayan satırlar \'#\' yok sayıldı.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Özel Blok Listesi Güncelleme Aralığı</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">yenileme arasındaki gün sayısı..</string>
 </resources>

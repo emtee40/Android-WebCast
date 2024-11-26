@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock সেটিংস</string>
   <string name="pref_adblock_enable_title">এড ব্লক সক্রিয় করো</string>
   <string name="pref_adblock_enable_summary_on" >Blocking এমন হোস্ট যা কাজ করে: বিজ্ঞাপন, ট্রাকার্স, ম্যালওয়্যার, স্প্যাম</string>
   <string name="pref_adblock_enable_summary_off">সকল হোস্টকে অনুরোধ করা হচ্ছে</string>
+  <string name="pref_adblock_custom_blocklist_url_title">স্বনির্বাচিত ব্লকলিস্ট URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">স্বনির্বাচিত ব্লকলিস্টের জন্য URL. ব্লকলিস্টে প্রতি লাইনে একটি হোস্টনেম থাকতে হবে. ফাঁকা রেখা এবং রেখা যা শুরু করা হবে \'#\' উপেক্ষা করা হচ্ছে.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">স্বনির্বাচিত ব্লকতালিকা আপডেট বিরতি</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">রিফ্রেশ করার দিন..</string>
 </resources>

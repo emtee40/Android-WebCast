@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock सेटिङ</string>
   <string name="pref_adblock_enable_title">विज्ञापन खण्ड सक्षम पार्नुहोस्</string>
   <string name="pref_adblock_enable_summary_on" >सेवा गर्ने होस्टहरू: विज्ञापन, ट्रकर्स, मालवेयर, स्पाम</string>
   <string name="pref_adblock_enable_summary_off">सबै होस्टमा अनुरोधहरू अनुमति</string>
+  <string name="pref_adblock_custom_blocklist_url_title">अनुकूल Blocklist URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">अनुकूल अवरोधका लागि यूआरएल. अवरोधले प्रति रेखा एक होस्टनाम हुनुपर्दछ. बाट सुरु भएको खाली रेखा र रेखाहरू \'#\' उपेक्षा गरिन्छ.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">अनुकूल Blocklist अद्यावधिक अन्तराल</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">रिफ्रेश बीचको दिनहरू..</string>
 </resources>

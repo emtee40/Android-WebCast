@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock സജ്ജീകരണങ്ങള്</string>
   <string name="pref_adblock_enable_title">ആഡ് ബ്ലോക്ക് സജ്ജമാക്കുക</string>
   <string name="pref_adblock_enable_summary_on" >സേവനം ചെയ്യുന്ന ഹോസ്റ്റുകള്: അഡ്ഡുകള്, ട്രാക്കര്, മാള്വെയര്, സ്പാം</string>
   <string name="pref_adblock_enable_summary_off">എല്ലാ ഹോസ്റ്റുകള്ക്കു് ആവശ്യങ്ങള് അനുവദിക്കുന്നു</string>
+  <string name="pref_adblock_custom_blocklist_url_title">ഇഷ്ടപ്പെട്ട ബ്ലോക്ക് ലിസ്റ്റ് യുആര്എല്</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">ഇഷ്ടപ്പെട്ട ബ്ലോക്കിസ്റ്റിനുള്ള യുആര്എല്. ബ്ലോക്ക് ലിസ്റ്റില് ഒരു ഹോസ്റ്റ്നാമം ഉണ്ടായിരിക്കണം. à \', à\', à \', à\', à \', à\', à \', à \' \'#\' അവഗണിക്കപ്പെട്ടിരിക്കുന്നു.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">à \'- à\', à \', à\', à \', à\', à \',</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">പുരാതന തമ്മിലുള്ള ദിവസങ്ങള്..</string>
 </resources>

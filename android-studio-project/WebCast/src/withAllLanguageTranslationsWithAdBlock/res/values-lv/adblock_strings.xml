@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock Iestatījumi</string>
   <string name="pref_adblock_enable_title">Ieslēgt sludinājumu bloku</string>
   <string name="pref_adblock_enable_summary_on" >Bloķēšana saimniekiem, kas apkalpo: reklāmas, trackers, malware, spam</string>
   <string name="pref_adblock_enable_summary_off">Atļaut pieprasījumus visiem saimniekiem</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Pielāgots bloksaraksta URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL pielāgotu bloksarakstu. Bloksarakstā ir jābūt vienam resursdatora nosaukumam. Tukšas līnijas un līnijas, kas sākas ar \'#\' ir ignorēti.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Pielāgots bloksarakstu atjaunināšanas intervāls</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">dienas no jauna atsvaidzināt..</string>
 </resources>

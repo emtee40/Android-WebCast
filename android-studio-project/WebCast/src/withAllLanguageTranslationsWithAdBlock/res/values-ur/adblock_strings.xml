@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock سیٹنگز</string>
   <string name="pref_adblock_enable_title">قابل دید اشتہار بلاک</string>
   <string name="pref_adblock_enable_summary_on" >Blocking کے میزبانوں کہ خدمت: اشتھارات, ٹریکرز, میلویئر, سپیم</string>
   <string name="pref_adblock_enable_summary_off">تمام میزبانوں کو Allowing کی درخواستوں</string>
+  <string name="pref_adblock_custom_blocklist_url_title">کسٹم ناکہ بندی یو آر ایل</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">یو آر ایل اپنی مرضی کی ناکہ بندی. ناکہ بندی کے تحت ایک ہوسٹکس پر مشتمل ہوگا. خالی لکیریں اور لکیریں جو ساتھ شروع ہوتی ہیں \'#\' نظر انداز.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">کسٹم کی Blocklist اپ ڈیٹ Interval</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">Click here to refresh..</string>
 </resources>

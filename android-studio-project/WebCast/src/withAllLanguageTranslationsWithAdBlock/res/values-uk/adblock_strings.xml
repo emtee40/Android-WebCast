@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
+  <string name="pref_adblock_settings_title">AdBlock ПараметриName</string>
   <string name="pref_adblock_enable_title">Увімкнути блокування реклами</string>
   <string name="pref_adblock_enable_summary_on" >Блокування вузлів, які служать: ads, trackers, malware, спам</string>
   <string name="pref_adblock_enable_summary_off">Дозволяти запити на всі вузли</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Нетиповий URL блоксписку</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">Адреса URL для нетипового блокування. Блоксписок повинен містити одну назву вузла на рядок. Порожні лінії і рядки, які починаються з \'#\' Ігнорується.</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Нетиповий інтервал оновлення Blocklist</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">днів між освітою..</string>
 </resources>
