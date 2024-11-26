@@ -7,6 +7,7 @@ import com.github.warren_bank.webcast.webview.BrowserUtils;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import android.text.TextUtils;
 import android.webkit.WebView;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebResourceResponse;
@@ -16,6 +17,8 @@ import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.List;
 import java.util.TreeMap;
 
 public class BrowserWebViewClient_AdBlock extends BrowserWebViewClient_VideoDetector {
@@ -103,11 +106,20 @@ public class BrowserWebViewClient_AdBlock extends BrowserWebViewClient_VideoDete
         try {
             Uri uri = Uri.parse(url);
             String host = uri.getHost().toLowerCase().trim();
-            return blockedHosts.containsKey(host);
+
+            List<String> domains = Arrays.asList(host.split("\\."));
+            String domain;
+
+            while (domains.size() > 1) {
+                domain = TextUtils.join(".", domains);
+                if (blockedHosts.containsKey(domain)) {
+                    return true;
+                }
+                domains = domains.subList(1, domains.size());
+            }
         }
-        catch(Exception e) {
-            return false;
-        }
+        catch(Exception e) {}
+        return false;
     }
 
     private WebResourceResponse shouldBlockRequest(String url) {
