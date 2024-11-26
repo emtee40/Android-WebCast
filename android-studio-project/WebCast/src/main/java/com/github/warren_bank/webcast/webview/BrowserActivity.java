@@ -327,7 +327,7 @@ public class BrowserActivity extends AppCompatActivity {
         String jsonBookmarks = sharedPreferences.getString(PREF_BOOKMARKS, null);
 
         if (jsonBookmarks == null) {
-            jsonBookmarks = BrowserConfigs.getDefaultBookmarks();
+            jsonBookmarks = BrowserConfigs.getDefaultBookmarks(BrowserActivity.this);
 
             // update SharedPreferences
             setSavedBookmarks(sharedPreferences, jsonBookmarks);
