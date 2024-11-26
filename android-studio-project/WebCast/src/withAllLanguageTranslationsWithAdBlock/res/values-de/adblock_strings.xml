@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">Anzeigenblock aktivieren</string>
-  <string name="pref_enableadblock_summary_on" >Blockierende Hosts, die dienen: Anzeigen, Trackern, Malware, Spam</string>
-  <string name="pref_enableadblock_summary_off">Anforderungen an alle Hosts zulassen</string>
+  <string name="pref_adblock_enable_title">Anzeigenblock aktivieren</string>
+  <string name="pref_adblock_enable_summary_on" >Blockierende Hosts, die dienen: Anzeigen, Trackern, Malware, Spam</string>
+  <string name="pref_adblock_enable_summary_off">Anforderungen an alle Hosts zulassen</string>
 </resources>

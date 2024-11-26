@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory
+    android:key="@string/pref_adblock_settings_key"
+    android:title="@string/pref_adblock_settings_title">
+
+    <CheckBoxPreference
+      android:key="@string/pref_adblock_enable_key"
+      android:title="@string/pref_adblock_enable_title"
+      android:summaryOn="@string/pref_adblock_enable_summary_on"
+      android:summaryOff="@string/pref_adblock_enable_summary_off"
+      android:defaultValue="@string/pref_adblock_enable_default" />
+
+    <EditTextPreference
+      android:key="@string/pref_adblock_custom_blocklist_url_key"
+      android:title="@string/pref_adblock_custom_blocklist_url_title"
+      android:summary="@string/pref_adblock_custom_blocklist_url_summary"
+      android:inputType="text"
+      android:defaultValue="@string/pref_adblock_custom_blocklist_url_default" />
+
+    <EditTextPreference
+      android:key="@string/pref_adblock_custom_blocklist_updateinterval_key"
+      android:title="@string/pref_adblock_custom_blocklist_updateinterval_title"
+      android:summary="@string/pref_adblock_custom_blocklist_updateinterval_summary"
+      android:inputType="number"
+      android:numeric="integer"
+      android:maxLength="3"
+      android:defaultValue="@string/pref_adblock_custom_blocklist_updateinterval_default" />
+
+  </PreferenceCategory>
+</PreferenceScreen>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">Omogući blok reklama</string>
-  <string name="pref_enableadblock_summary_on" >Blokiranje domaćina koji poslužuju: oglase, tragače, malware, spam</string>
-  <string name="pref_enableadblock_summary_off">Dopuštanje zahtjeva svim domaćinima</string>
+  <string name="pref_adblock_enable_title">Omogući blok reklama</string>
+  <string name="pref_adblock_enable_summary_on" >Blokiranje domaćina koji poslužuju: oglase, tragače, malware, spam</string>
+  <string name="pref_adblock_enable_summary_off">Dopuštanje zahtjeva svim domaćinima</string>
 </resources>

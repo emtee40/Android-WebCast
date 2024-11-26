@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">Galluogi bloc</string>
-  <string name="pref_enableadblock_summary_on" >Rhwystro gwesteiwyr sy\'n gwasanaethu: tadau, tracwyr, malwyr, sbam</string>
-  <string name="pref_enableadblock_summary_off">Caniatáu ceisiadau i bob gwesteiwr</string>
+  <string name="pref_adblock_enable_title">Galluogi bloc</string>
+  <string name="pref_adblock_enable_summary_on" >Rhwystro gwesteiwyr sy\'n gwasanaethu: tadau, tracwyr, malwyr, sbam</string>
+  <string name="pref_adblock_enable_summary_off">Caniatáu ceisiadau i bob gwesteiwr</string>
 </resources>

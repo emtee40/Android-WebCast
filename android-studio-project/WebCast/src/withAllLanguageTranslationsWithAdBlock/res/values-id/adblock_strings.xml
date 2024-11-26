@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">Aktifkan blok iklan</string>
-  <string name="pref_enableadblock_summary_on" >Memblokir host yang melayani: ads, trackers, malware, spam</string>
-  <string name="pref_enableadblock_summary_off">Memungkinkan permintaan untuk semua host</string>
+  <string name="pref_adblock_enable_title">Aktifkan blok iklan</string>
+  <string name="pref_adblock_enable_summary_on" >Memblokir host yang melayani: ads, trackers, malware, spam</string>
+  <string name="pref_adblock_enable_summary_off">Memungkinkan permintaan untuk semua host</string>
 </resources>

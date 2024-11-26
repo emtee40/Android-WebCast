@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">Povolit reklamní blok</string>
-  <string name="pref_enableadblock_summary_on" >Blocking hosts that serve: ads, trackers, malware, spam</string>
-  <string name="pref_enableadblock_summary_off">Povolení požadavků na všechny hostitele</string>
+  <string name="pref_adblock_enable_title">Povolit reklamní blok</string>
+  <string name="pref_adblock_enable_summary_on" >Blocking hosts that serve: ads, trackers, malware, spam</string>
+  <string name="pref_adblock_enable_summary_off">Povolení požadavků na všechny hostitele</string>
 </resources>

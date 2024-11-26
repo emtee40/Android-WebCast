@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">Омогући блок ад</string>
-  <string name="pref_enableadblock_summary_on" >Блокирање домаћина који служе: рекламе, уређаји за праћење, малвер, spam</string>
-  <string name="pref_enableadblock_summary_off">Омогућавање захтева свим домаћинима</string>
+  <string name="pref_adblock_enable_title">Омогући блок ад</string>
+  <string name="pref_adblock_enable_summary_on" >Блокирање домаћина који служе: рекламе, уређаји за праћење, малвер, spam</string>
+  <string name="pref_adblock_enable_summary_off">Омогућавање захтева свим домаћинима</string>
 </resources>

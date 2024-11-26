@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- SettingsActivity: Enable AdBlock -->
-    <string translatable="false" name="pref_enableadblock_key">pref_enableadblock</string>
-    <string translatable="false" name="pref_enableadblock_default">true</string>
-    <string name="pref_enableadblock_title">Enable AdBlock</string>
-    <string name="pref_enableadblock_summary_on" >Blocking hosts that serve: ads, trackers, malware, spam</string>
-    <string name="pref_enableadblock_summary_off">Allowing requests to all hosts</string>
+  <!-- Settings -->
+  <string translatable="false" name="pref_adblock_settings_key">adblock_settings_key</string>
+  <string name="pref_adblock_settings_title">AdBlock Settings</string>
+
+  <!-- Settings: Enable AdBlock -->
+  <string translatable="false" name="pref_adblock_enable_key">pref_adblock_enable</string>
+  <string translatable="false" name="pref_adblock_enable_default">true</string>
+  <string name="pref_adblock_enable_title">Enable AdBlock</string>
+  <string name="pref_adblock_enable_summary_on" >Blocking hosts that serve: ads, trackers, malware, spam</string>
+  <string name="pref_adblock_enable_summary_off">Allowing requests to all hosts</string>
+
+  <!-- Settings: Custom AdBlock Blocklist URL -->
+  <string translatable="false" name="pref_adblock_custom_blocklist_url_key">pref_adblock_custom_blocklist_url</string>
+  <string translatable="false" name="pref_adblock_custom_blocklist_url_default">https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&amp;showintro=0&amp;mimetype=plaintext</string>
+  <string name="pref_adblock_custom_blocklist_url_title">Custom Blocklist URL</string>
+  <string name="pref_adblock_custom_blocklist_url_summary">URL for custom blocklist. The blocklist must contain one hostname per line. Empty lines and lines that begin with \'#\' are ignored.</string>
+
+  <!-- Settings: Custom AdBlock Blocklist Update Interval -->
+  <string translatable="false" name="pref_adblock_custom_blocklist_updateinterval_key">pref_adblock_custom_blocklist_updateinterval</string>
+  <string translatable="false" name="pref_adblock_custom_blocklist_updateinterval_default">7</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_title">Custom Blocklist Update Interval</string>
+  <string name="pref_adblock_custom_blocklist_updateinterval_summary">days between refresh..</string>
 
 </resources>

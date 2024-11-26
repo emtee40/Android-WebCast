@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">Cumasaigh bloc ad</string>
-  <string name="pref_enableadblock_summary_on" >Blocála óstáin a sheirbheáil: fógraí, tarracóirí, malware, spamáil</string>
-  <string name="pref_enableadblock_summary_off">Ceadaigh iarratais ar gach óstáin</string>
+  <string name="pref_adblock_enable_title">Cumasaigh bloc ad</string>
+  <string name="pref_adblock_enable_summary_on" >Blocála óstáin a sheirbheáil: fógraí, tarracóirí, malware, spamáil</string>
+  <string name="pref_adblock_enable_summary_off">Ceadaigh iarratais ar gach óstáin</string>
 </resources>

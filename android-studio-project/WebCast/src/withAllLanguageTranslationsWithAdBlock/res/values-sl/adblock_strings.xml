@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">Omogoči blokiralnik</string>
-  <string name="pref_enableadblock_summary_on" >Blokiranje gostiteljev, ki služijo: oglasi, sledilci, zlonamerne programske opreme, spam</string>
-  <string name="pref_enableadblock_summary_off">Omogočanje zahtev vsem gostiteljem</string>
+  <string name="pref_adblock_enable_title">Omogoči blokiralnik</string>
+  <string name="pref_adblock_enable_summary_on" >Blokiranje gostiteljev, ki služijo: oglasi, sledilci, zlonamerne programske opreme, spam</string>
+  <string name="pref_adblock_enable_summary_off">Omogočanje zahtev vsem gostiteljem</string>
 </resources>

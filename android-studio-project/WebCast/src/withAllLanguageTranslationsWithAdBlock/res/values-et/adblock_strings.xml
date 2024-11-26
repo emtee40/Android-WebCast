@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">Reklaamiploki lubamine</string>
-  <string name="pref_enableadblock_summary_on" >Blokeerivad hosts, mis teenivad: reklaamid, jälitajad, pahavara, rämpspost</string>
-  <string name="pref_enableadblock_summary_off">Kõigi masinate taotluste lubamine</string>
+  <string name="pref_adblock_enable_title">Reklaamiploki lubamine</string>
+  <string name="pref_adblock_enable_summary_on" >Blokeerivad hosts, mis teenivad: reklaamid, jälitajad, pahavara, rämpspost</string>
+  <string name="pref_adblock_enable_summary_off">Kõigi masinate taotluste lubamine</string>
 </resources>

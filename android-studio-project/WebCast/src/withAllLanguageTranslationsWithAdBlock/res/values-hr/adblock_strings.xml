@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">Omogući blok ad-a</string>
-  <string name="pref_enableadblock_summary_on" >Blokiranje hostova koji služe: oglasi, pratitelji, zlonamjerni softver, spam</string>
-  <string name="pref_enableadblock_summary_off">Dozvoljavanje zahtjeva svim hostovima</string>
+  <string name="pref_adblock_enable_title">Omogući blok ad-a</string>
+  <string name="pref_adblock_enable_summary_on" >Blokiranje hostova koji služe: oglasi, pratitelji, zlonamjerni softver, spam</string>
+  <string name="pref_adblock_enable_summary_off">Dozvoljavanje zahtjeva svim hostovima</string>
 </resources>

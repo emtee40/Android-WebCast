@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">Įjungti ad bloką</string>
-  <string name="pref_enableadblock_summary_on" >Blokuojantys šeimininkai, kurie tarnauja: skelbimai, trackers, kenkėjiškų programų,</string>
-  <string name="pref_enableadblock_summary_off">Leisti užklausas visiems šeimininkams</string>
+  <string name="pref_adblock_enable_title">Įjungti ad bloką</string>
+  <string name="pref_adblock_enable_summary_on" >Blokuojantys šeimininkai, kurie tarnauja: skelbimai, trackers, kenkėjiškų programų,</string>
+  <string name="pref_adblock_enable_summary_off">Leisti užklausas visiems šeimininkams</string>
 </resources>

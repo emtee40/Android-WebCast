@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">అడ్ బ్లాక్ ను చేతనము చేయుము</string>
-  <string name="pref_enableadblock_summary_on" >సేవించు బల్కింగ్ సైన్యం: అడ్డులు, ట్రాకర్లు, మల్వేర్, స్పామ్</string>
-  <string name="pref_enableadblock_summary_off">అన్ని సైన్సులకు అభ్యర్ధనలను అనుమతిస్తుంది</string>
+  <string name="pref_adblock_enable_title">అడ్ బ్లాక్ ను చేతనము చేయుము</string>
+  <string name="pref_adblock_enable_summary_on" >సేవించు బల్కింగ్ సైన్యం: అడ్డులు, ట్రాకర్లు, మల్వేర్, స్పామ్</string>
+  <string name="pref_adblock_enable_summary_off">అన్ని సైన్సులకు అభ్యర్ధనలను అనుమతిస్తుంది</string>
 </resources>

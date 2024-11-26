@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="pref_enableadblock_title">Habilitar bloque de anuncios</string>
-  <string name="pref_enableadblock_summary_on" >Bloquear hosts que sirven: anuncios, rastreadores, malware, spam</string>
-  <string name="pref_enableadblock_summary_off">Permitir solicitudes a todos los hosts</string>
+  <string name="pref_adblock_enable_title">Habilitar bloque de anuncios</string>
+  <string name="pref_adblock_enable_summary_on" >Bloquear hosts que sirven: anuncios, rastreadores, malware, spam</string>
+  <string name="pref_adblock_enable_summary_off">Permitir solicitudes a todos los hosts</string>
 </resources>
