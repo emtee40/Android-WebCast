@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">WebCast</string>
     <string name="activity_name_video">WebCast વીડિયો પ્લેયર</string>
@@ -22,9 +23,6 @@
     <string name="pref_enableremotedebugger_title">દૂરસ્થ ડિબગર સક્રિય કરો</string>
     <string name="pref_enableremotedebugger_summary_on" >WebView પર નિરીક્ષણ કરી શકાય છે LAN</string>
     <string name="pref_enableremotedebugger_summary_off">WebView પર નિરીક્ષણ કરી શકાતો નથી LAN</string>
-    <string name="pref_enableadblock_title">Ad બ્લોક ને સક્રિય કરો</string>
-    <string name="pref_enableadblock_summary_on" >બ્લોકીંગ યજમાન કે જે સેવા આપે છે: એડ્સ, ટ્રેકર, મેલવેર, સ્પામ</string>
-    <string name="pref_enableadblock_summary_off">બધા યજમાનોને મંજૂરી આપે છે</string>
     <string name="media_route_menu_title">કાસ્ટ</string>
     <string name="cast_context_error">કાસ્ટ સંદર્ભ મેળવવામાં નિષ્ફળ. Google Play Services ને સુધારો અને કાર્યક્રમ પુનઃશરૂ કરવાનો પ્રયત્ન કરો.</string>
     <string name="alertdialog_badssl_pageloadbehavior_title">HTTPS પ્રમાણપત્ર ભૂલ</string>

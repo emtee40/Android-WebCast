@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pref_enableadblock_title">광고 블록 사용</string>
+  <string name="pref_enableadblock_summary_on" >서비스를 제공하는 차단 호스트: 광고, 추적 프로그램, 멀웨어, 스팸</string>
+  <string name="pref_enableadblock_summary_off">모든 호스트에 대한 요청 허용</string>
+</resources>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pref_enableadblock_title">Aktiver reklameblokk</string>
+  <string name="pref_enableadblock_summary_on" >Blokking av verter som tjener: annonser, sporere, malware, søppelpost</string>
+  <string name="pref_enableadblock_summary_off">Alløsende forespørsler til alle verter</string>
+</resources>

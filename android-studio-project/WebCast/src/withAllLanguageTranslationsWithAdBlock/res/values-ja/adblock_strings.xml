@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pref_enableadblock_title">広告ブロックの使用</string>
+  <string name="pref_enableadblock_summary_on" >サーブするホストのブロック : 広告、トラッカー、マルウェア、スパム</string>
+  <string name="pref_enableadblock_summary_off">すべてのホストへの要求の許可</string>
+</resources>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pref_enableadblock_title">Разрешаване на рекламен блок</string>
+  <string name="pref_enableadblock_summary_on" >Блокиране на хостове, които служат: реклами, тракери, зловреден софтуер, спам</string>
+  <string name="pref_enableadblock_summary_off">Разрешаване на заявки за всички хостове</string>
+</resources>

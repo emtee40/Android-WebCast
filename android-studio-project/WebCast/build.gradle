@@ -32,11 +32,9 @@ android {
         }
         withAdBlock {
             dimension "adBlock"
-            buildConfigField "boolean", "ALLOW_ADBLOCK", "true"
         }
         noAdBlock {
             dimension "adBlock"
-            buildConfigField "boolean", "ALLOW_ADBLOCK", "false"
         }
     }
 

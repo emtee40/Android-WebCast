@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pref_enableadblock_title">啟用廣告區塊</string>
+  <string name="pref_enableadblock_summary_on" >封鎖的主機服務：廣告、追踪者、惡意軟體、垃圾郵件</string>
+  <string name="pref_enableadblock_summary_off">容許要求給所有主機</string>
+</resources>

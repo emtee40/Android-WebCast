@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">WebCast</string>
     <string name="activity_name_video">WebCast طبقة الفيديو</string>
@@ -22,9 +23,6 @@
     <string name="pref_enableremotedebugger_title">اتاحة وحدة تصحيح الأخطاء عن بعد</string>
     <string name="pref_enableremotedebugger_summary_on" >WebView يمكن فحصها على LAN</string>
     <string name="pref_enableremotedebugger_summary_off">WebView لا يمكن تفقده على LAN</string>
-    <string name="pref_enableadblock_title">اتاحة كتلة</string>
-    <string name="pref_enableadblock_summary_on" >اقفال الأنظمة الرئيسية التي تخدم : اعلانات ، ووحدات تتبع ، وبرامج خبيثة ، وغيرها</string>
-    <string name="pref_enableadblock_summary_off">السماح بالطلبات لكل الأنظمة الرئيسية</string>
     <string name="media_route_menu_title">طاقم العمل</string>
     <string name="cast_context_error">فشل في الحصول على سياق Cast. حاول تعديل Google Play Services واعادة بدء التطبيق.</string>
     <string name="alertdialog_badssl_pageloadbehavior_title">HTTPS خطأ في الشهادة</string>

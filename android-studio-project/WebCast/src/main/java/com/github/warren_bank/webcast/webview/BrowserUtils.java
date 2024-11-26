@@ -1,6 +1,5 @@
 package com.github.warren_bank.webcast.webview;
 
-import com.github.warren_bank.webcast.BuildConfig;
 import com.github.warren_bank.webcast.R;
 
 import android.app.Activity;
@@ -39,8 +38,12 @@ public class BrowserUtils {
         view.setLayoutParams(params);
     }
 
+    protected static SharedPreferences getPrefs(Context context) {
+        return PreferenceManager.getDefaultSharedPreferences(context);
+    }
+
     public static String getVideoPlayerPreference(Context context) {
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+        SharedPreferences prefs = getPrefs(context);
         String pref_key         = context.getString(R.string.pref_videoplayer_key);
         String pref_default     = context.getString(R.string.pref_videoplayer_default);
 
@@ -48,7 +51,7 @@ public class BrowserUtils {
     }
 
     public static String getBadSslPageloadBehavior(Context context) {
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+        SharedPreferences prefs = getPrefs(context);
         String pref_key         = context.getString(R.string.pref_badssl_pageloadbehavior_key);
         String pref_default     = context.getString(R.string.pref_badssl_pageloadbehavior_default);
 
@@ -56,20 +59,9 @@ public class BrowserUtils {
     }
 
     public static boolean getEnableRemoteDebuggerPreference(Context context) {
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
+        SharedPreferences prefs = getPrefs(context);
         String pref_key         = context.getString(R.string.pref_enableremotedebugger_key);
         String pref_default     = context.getString(R.string.pref_enableremotedebugger_default);
-        boolean val_default     = "true".equals(pref_default);
-
-        return prefs.getBoolean(pref_key, val_default);
-    }
-
-    public static boolean getEnableAdBlockPreference(Context context) {
-        if (!BuildConfig.ALLOW_ADBLOCK) return false;
-
-        SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
-        String pref_key         = context.getString(R.string.pref_enableadblock_key);
-        String pref_default     = context.getString(R.string.pref_enableadblock_default);
         boolean val_default     = "true".equals(pref_default);
 
         return prefs.getBoolean(pref_key, val_default);

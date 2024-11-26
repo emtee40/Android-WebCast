@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pref_enableadblock_title">Reklam bloğunu etkinleştir</string>
+  <string name="pref_enableadblock_summary_on" >Hizmet veren anasistemleri engelle: reklamlar, trackler, kötü niyetli yazılımlar, istenmeyen e-posta</string>
+  <string name="pref_enableadblock_summary_off">Tüm anasistemlere yönelik isteklere izin verilmesi</string>
+</resources>

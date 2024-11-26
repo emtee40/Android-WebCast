@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pref_enableadblock_title">Включить блок рекламы</string>
+  <string name="pref_enableadblock_summary_on" >Блокирующие хосты, которые обслуживают: объявления, трекеры, вредоносные программы, спам</string>
+  <string name="pref_enableadblock_summary_off">Разрешение запросов всем хостам</string>
+</resources>

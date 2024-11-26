@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pref_enableadblock_title">Jippermettu blokk ad</string>
+  <string name="pref_enableadblock_summary_on" >Imblukkar ospiti li jservu: ads, trackers, malware, spam</string>
+  <string name="pref_enableadblock_summary_off">Permess ta \' talbiet għall-ospiti kollha</string>
+</resources>

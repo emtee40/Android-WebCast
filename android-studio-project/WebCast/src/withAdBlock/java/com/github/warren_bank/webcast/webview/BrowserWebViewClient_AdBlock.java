@@ -1,7 +1,7 @@
 package com.github.warren_bank.webcast.webview;
 
 import com.github.warren_bank.webcast.R;
-import com.github.warren_bank.webcast.webview.BrowserUtils;
+import com.github.warren_bank.webcast.webview.AdBlockSettingsUtils;
 
 import android.content.Context;
 import android.net.Uri;
@@ -70,7 +70,7 @@ public class BrowserWebViewClient_AdBlock extends BrowserWebViewClient_VideoDete
 
         Context context = browserActivity.getApplicationContext();
 
-        if (BrowserUtils.getEnableAdBlockPreference(context)) {
+        if (AdBlockSettingsUtils.getEnableAdBlockPreference(context)) {
             isPopulatingHosts = true;
             populateBlockedHosts(context);
         }

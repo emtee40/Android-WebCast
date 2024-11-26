@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pref_enableadblock_title">Ieslēgt sludinājumu bloku</string>
+  <string name="pref_enableadblock_summary_on" >Bloķēšana saimniekiem, kas apkalpo: reklāmas, trackers, malware, spam</string>
+  <string name="pref_enableadblock_summary_off">Atļaut pieprasījumus visiem saimniekiem</string>
+</resources>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pref_enableadblock_title">Ενεργοποίηση ενότητας ad</string>
+  <string name="pref_enableadblock_summary_on" >Οικοδεσπότες που σερβίρουν: διαφημίσεις, ανιχνευτές, κακόβουλο λογισμικό, spam</string>
+  <string name="pref_enableadblock_summary_off">Επιτρέποντας αιτήσεις σε όλους τους υπολογιστές.</string>
+</resources>

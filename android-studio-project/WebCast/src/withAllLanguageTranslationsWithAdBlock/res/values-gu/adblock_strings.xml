@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pref_enableadblock_title">એડ બ્લોક સક્રિય કરો</string>
+  <string name="pref_enableadblock_summary_on" >બ્લોકીંગ યજમાન કે જે સેવા આપે છે: એડ્સ, ટ્રેકર, મેલવેર, સ્પામ</string>
+  <string name="pref_enableadblock_summary_off">બધા યજમાનોને મંજૂરી આપે છે</string>
+</resources>

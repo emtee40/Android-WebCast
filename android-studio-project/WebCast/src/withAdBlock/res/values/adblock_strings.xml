@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SettingsActivity: Enable AdBlock -->
+    <string translatable="false" name="pref_enableadblock_key">pref_enableadblock</string>
+    <string translatable="false" name="pref_enableadblock_default">true</string>
+    <string name="pref_enableadblock_title">Enable AdBlock</string>
+    <string name="pref_enableadblock_summary_on" >Blocking hosts that serve: ads, trackers, malware, spam</string>
+    <string name="pref_enableadblock_summary_off">Allowing requests to all hosts</string>
+
+</resources>

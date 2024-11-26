@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="pref_enableadblock_title">அட்டை தொகுதி செயல்படுத்து</string>
+  <string name="pref_enableadblock_summary_on" >வலைப்பதிவொன்றின் சேவைகள்: ஆடைகள், டிராக்கர், மல்வார், ஸ்பம்</string>
+  <string name="pref_enableadblock_summary_off">அனைத்து புள்ளிகளையும் அனுமதிக்கிறது</string>
+</resources>
