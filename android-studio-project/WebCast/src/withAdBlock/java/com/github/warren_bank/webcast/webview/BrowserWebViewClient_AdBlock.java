@@ -2,8 +2,10 @@ package com.github.warren_bank.webcast.webview;
 
 import com.github.warren_bank.webcast.R;
 import com.github.warren_bank.webcast.webview.AdBlockSettingsUtils;
+import com.github.warren_bank.webcast.webview.BrowserUtils;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.webkit.WebView;
 import android.webkit.WebResourceRequest;
@@ -17,8 +19,48 @@ import java.io.InputStreamReader;
 import java.util.TreeMap;
 
 public class BrowserWebViewClient_AdBlock extends BrowserWebViewClient_VideoDetector {
+    private boolean isEnabled;
     private boolean isPopulatingHosts;
     private TreeMap<String, Object> blockedHosts;
+
+    public BrowserWebViewClient_AdBlock(BrowserActivity browserActivity) {
+        super(browserActivity);
+
+        Context context = browserActivity.getApplicationContext();
+
+        updateIsEnabled(context);
+        updateBlockedHosts(context);
+        addPreferenceChangeListener(context);
+    }
+
+    @Override
+    public WebResourceResponse shouldInterceptRequest(WebView view, String url) {
+        super.shouldInterceptRequest(view, url);
+
+        return shouldBlockRequest(url);
+    }
+
+    @Override
+    public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
+        super.shouldInterceptRequest(view, request);
+
+        String url = request.getUrl().toString();
+        return shouldBlockRequest(url);
+    }
+
+    private void updateIsEnabled(Context context) {
+        isEnabled = AdBlockSettingsUtils.getEnableAdBlockPreference(context);
+    }
+
+    private void updateBlockedHosts(Context context) {
+        blockedHosts = null;
+
+        if (isEnabled) {
+            isPopulatingHosts = true;
+            populateBlockedHosts(context);
+        }
+        isPopulatingHosts = false;
+    }
 
     private void populateBlockedHosts(Context context) {
         InputStream is = context.getResources().openRawResource(R.raw.adblock_serverlist);
@@ -42,8 +84,21 @@ public class BrowserWebViewClient_AdBlock extends BrowserWebViewClient_VideoDete
         }
     }
 
+    private void addPreferenceChangeListener(Context context) {
+        SharedPreferences prefs = BrowserUtils.getPrefs(context);
+
+        prefs.registerOnSharedPreferenceChangeListener(new SharedPreferences.OnSharedPreferenceChangeListener() {
+            public void onSharedPreferenceChanged (SharedPreferences sharedPreferences, String key) {
+                if (key.equals(AdBlockSettingsUtils.getEnableAdBlockPreferenceKey(context))) {
+                    updateIsEnabled(context);
+                    updateBlockedHosts(context);
+                }
+            }
+        });
+    }
+
     private boolean isHostBlocked(String url) {
-        if ((blockedHosts == null) || isPopulatingHosts) return false;
+        if (!isEnabled || isPopulatingHosts || (blockedHosts == null)) return false;
 
         try {
             Uri uri = Uri.parse(url);
@@ -63,32 +118,5 @@ public class BrowserWebViewClient_AdBlock extends BrowserWebViewClient_VideoDete
         else {
             return null;
         }
-    }
-
-    public BrowserWebViewClient_AdBlock(BrowserActivity browserActivity) {
-        super(browserActivity);
-
-        Context context = browserActivity.getApplicationContext();
-
-        if (AdBlockSettingsUtils.getEnableAdBlockPreference(context)) {
-            isPopulatingHosts = true;
-            populateBlockedHosts(context);
-        }
-        isPopulatingHosts = false;
-    }
-
-    @Override
-    public WebResourceResponse shouldInterceptRequest(WebView view, String url) {
-        super.shouldInterceptRequest(view, url);
-
-        return shouldBlockRequest(url);
-    }
-
-    @Override
-    public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
-        super.shouldInterceptRequest(view, request);
-
-        String url = request.getUrl().toString();
-        return shouldBlockRequest(url);
     }
 }
